@@ -192,7 +192,7 @@ html{
   #course_1{
     position: relative;
     display: block;
-    background-image: url('/images/smiling\ lapgrl.jpg');
+    background-image: url('../images/smiling\ lapgrl.jpg');
     top: 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
@@ -203,7 +203,7 @@ html{
   #course_2{
     position: relative;
     display: block;
-    background-image: url('/images/mansmiling.jpg');
+    background-image: url('../images/mansmiling.jpg');
     top: 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
@@ -214,7 +214,7 @@ html{
   #course_3{
     position: relative;
     display: block;
-    background-image: url('/images/pexels-fauxels-3184339.jpg');
+    background-image: url('../images/pexels-fauxels-3184339.jpg');
     top: 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
