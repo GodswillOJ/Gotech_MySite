@@ -1,0 +1,306 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    top: 0;
+    padding: 15px;
+    width: calc(100% - 20px);
+    z-index: 99;
+    background-color: #fff;
+    /* padding: 0 10px 0 10px; */
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values based on your preference */
+  }
+
+  .nav {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+  .nav li{
+    padding: 10px;
+    margin: 0;
+  }
+  .nav li:hover {
+    background-color: none;
+    color: #134074;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #484646;
+    
+  } 
+
+  /* For menu-toggle */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    height: 3px;
+    width: 25px;
+    background-color: #373434;
+    margin: 5px 0;
+    display: block;
+  }
+
+  /* Add styles for the sub-menu */
+.has-submenu:hover .submenu {
+    display: block;
+    padding-left: 0;
+    right: 0;
+    top: 3.5rem;
+    transition: display 6.3s ease-in-out;
+    left: 60%;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Sub-menu background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #09152c;
+    z-index: 1;
+    list-style: none;
+  }
+  
+  .submenu li {
+    margin: 0;
+    padding: 0;
+    padding: 10px 10px 10px 10px;
+  }
+  .submenu li:hover {
+    background-color: #f7f8fa;
+  }
+  
+  .submenu li a {
+    color: #09152c;
+    padding-left: 10px;
+  }
+  .submenu li a:hover {
+    color: #09152c;
+    transform: 0.5s;
+  }
+
+  /* main styles */
+  main{
+    position: relative;
+    display: block;
+  }
+
+  #site_img{
+    position: relative;
+    display: block;
+    background-image: url('../images/shoper.jpg');
+    height: 20rem;
+    top: 10%;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-size:cover;
+    margin: 10%;
+    padding: 15%;
+    /* background-attachment: fixed; */
+    text-align: center;
+  }
+  .site_hint{
+    position: relative;
+    display: block;
+    padding-top: 0;
+    align-items: center;
+    font-family: 'News Cycle', sans-serif;
+    border-radius: 5px;
+  }
+  .site_hint p{
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(77, 79, 79);
+  }
+  .site_hint:hover{
+    border: 1px solid #c87e65;
+  }
+
+  button {
+    display: inline-block;
+    padding:10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    box-shadow: 2px 4px 8px rgb(74, 83, 87);
+    margin-bottom: 30px;
+  }
+
+    /* Default button styles */
+  .button-default {
+    background-color: #79b5dd;
+    color: #fff;
+  }
+
+  /* Hover styles */
+  .button-default:hover {
+    background-color: #2980b9;
+  }
+
+  /* Courses enrolled */
+  .course{
+    color: #fff;
+  }
+  .courses_heads{
+    position: relative;
+    display: flex;
+    color: #fff;
+    margin: 5%;
+    justify-content: center;
+  }
+  .courses_heads p{
+    color: #763816;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'News Cycle', sans-serif;
+  }
+  .courses_heads p:hover{
+    color: #ec911a;
+  }
+  .course_c1{
+    width: 15%;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 10px;
+  }
+  #course_1{
+    position: relative;
+    display: block;
+    background-image: url('/images/smiling\ lapgrl.jpg');
+    top: 10%;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    text-align: center;
+  }
+  #course_2{
+    position: relative;
+    display: block;
+    background-image: url('/images/mansmiling.jpg');
+    top: 10%;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    text-align: center;
+  }
+  #course_3{
+    position: relative;
+    display: block;
+    background-image: url('/images/pexels-fauxels-3184339.jpg');
+    top: 10%;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    background-size:cover;
+    /* background-attachment: fixed; */
+    text-align: center;
+  }
+
+  @media screen and (max-width: 760px) {
+    header{
+        margin: 0;
+      }
+      .nav {
+        display: none;
+        flex-direction: column;
+        text-align: start;
+        position: absolute;
+        width: 100%;
+        top: 60px;
+        left: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding-left: 0;
+        background-color: #fff;
+      }
+      /* ... (previous styles) */
+      .home_nav_sec{
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+      .submenu {
+        width: 100%;
+        margin-top: 10px;
+        transition: 1s;
+      }
+      
+      .has-submenu:hover .submenu {
+       display: block;
+       padding-left: 0;
+       right: 0;
+       top: 40%;
+       transition: display 2.3s ease-in-out;
+       left: 0;
+      }
+      .nav.active {
+        display: block;
+      }
+      .nav li {
+        margin: 0;
+        padding: 5px;
+        padding-left: 3%;
+        width: 100%;
+        margin-right: 20px;
+        list-style: none;
+      }
+    
+      .nav li:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .menu-toggle {
+        display: flex;
+      }
+      #site_img{
+        background-image: url('../images/shoper.jpg');
+        position: relative;
+        top:3rem;
+        height:30rem;
+        /* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2); */
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
+        text-align: center;
+        display: block;
+      }
+
+          /* Courses enrolled */
+      .courses_heads{
+        position: relative;
+        display: block;
+        margin-left: 15%;
+        top: 60px;
+      }
+      .course_c1{
+        width: 70%;
+        padding: 5%;
+        margin: 5%;
+      }
+  }
+  
