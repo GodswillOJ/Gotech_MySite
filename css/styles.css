@@ -116,7 +116,6 @@ html{
     background-size:cover;
     margin: 10%;
     padding: 15%;
-    /* background-attachment: fixed; */
     text-align: center;
   }
   .site_hint{
@@ -196,7 +195,7 @@ html{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
     background-size:cover;
-    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     text-align: center;
   }
   #course_2{
@@ -207,7 +206,7 @@ html{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
     background-size:cover;
-    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     text-align: center;
   }
   #course_3{
@@ -218,7 +217,7 @@ html{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
     background-size:cover;
-    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     text-align: center;
   }
 
