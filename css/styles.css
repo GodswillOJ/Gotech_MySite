@@ -108,7 +108,7 @@ html{
 
   #site_img{
     position: relative;
-    background-image: url('../images/shoper.jpg');
+    background-image: url('../images/personal_opacity.jpg');
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -171,6 +171,7 @@ html{
     display: flex;
     color: #fff;
     margin: 5%;
+    margin-bottom: 5%;
     justify-content: center;
   }
   .courses_heads p{
