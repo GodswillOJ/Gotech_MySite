@@ -198,7 +198,6 @@ html{
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     text-align: center;
   }
   #course_2{
@@ -209,7 +208,6 @@ html{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
     background-size:cover;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     text-align: center;
   }
@@ -221,7 +219,6 @@ html{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
     background-position: center;
     background-size:cover;
-    /* background-attachment: fixed; */
     background-repeat: no-repeat;
     text-align: center;
   }
@@ -281,16 +278,9 @@ html{
         display: flex;
       }
       #site_img{
-        background-image: url('../images/shoper.jpg');
         position: relative;
         top:3rem;
         height:30rem;
-        /* box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2); */
-        background-position: center;
-        background-size:cover;
-        background-attachment: fixed;
-        text-align: center;
-        display: block;
       }
 
           /* Courses enrolled */
