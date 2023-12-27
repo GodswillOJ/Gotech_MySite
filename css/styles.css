@@ -112,8 +112,10 @@ html{
     height: 20rem;
     top: 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url('../images/personal_opacity.jpg');
     background-position: center;
     background-size:cover;
+    background-repeat: no-repeat;
     margin: 10%;
     padding: 15%;
     text-align: center;
