@@ -130,7 +130,7 @@ html{
   .site_hint p{
     font-weight: bold;
     font-style: normal;
-    color: rgb(77, 79, 79);
+    color: #000;
   }
   .site_hint:hover{
     border: 1px solid #c87e65;
@@ -175,13 +175,16 @@ html{
     justify-content: center;
   }
   .courses_heads p{
-    color: #763816;
-    font-size: 16px;
+    color: #fff;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'News Cycle', sans-serif;
   }
-  .courses_heads p:hover{
-    color: #ec911a;
+  .courses_heads h1{
+    font-size: 26px;
+  }
+  .courses_heads h1:hover{
+    color: #4d9ffc;
   }
   .course_c1{
     width: 15%;
@@ -222,6 +225,46 @@ html{
     top: 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
   }
+
+  /* courses information */
+  .courses_info{
+    position: relative;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .courses_all{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20% 0 20%;
+    gap: 20px;
+  }
+  .course_c2{
+    position: relative;
+    display: block;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    top: 10%;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 5rem 0 5rem;
+  }
+  .course_c2 p{
+    position: relative;
+    display: block;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+  }
+  .course_c2 button{
+
+  }
+  /* ?\courses images */
+
+
 
   @media screen and (max-width: 760px) {
     header{
@@ -293,6 +336,12 @@ html{
         width: 70%;
         padding: 5%;
         margin: 5%;
+      }
+
+      /* courses_infor */
+      .courses_all{
+        display: block;
+        top: 5rem;
       }
   }
   
