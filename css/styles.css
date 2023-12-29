@@ -303,8 +303,8 @@ html{
     position: relative;
     display: flex;
     justify-content: center;
-    bottom: 2rem;
-    padding: 5px 15px 5px 15px;
+    padding: 0 15px 0 15px;
+    bottom: 2em;
   }
   .cr_feat .feat a{
     text-decoration: none;
@@ -463,17 +463,16 @@ html{
 
 @media screen and (max-width: 380px) {
       .cr_feat{
-        margin: 0 20% 0 20%;
+        margin: 0 10% 0 10%;
         margin-top: 20em;
       }
       .cr_feat .feat{
         position: relative;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: inline-block;
         font-size: 9px;
-        padding: 0;
+        padding: 10px;
         padding-left: 2em;
         margin: 0;
-        gap: 20px;
+      
       }
 }
